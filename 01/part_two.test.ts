@@ -2,7 +2,7 @@ import { readFileSync } from "fs";
 
 import { topThreeSum } from "./part_two";
 
-describe("part one", () => {
+describe("part two", () => {
   test("example input", () => {
     const result = topThreeSum(readFileSync("./01/example_input.txt", "utf-8"));
 
