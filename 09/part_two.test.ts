@@ -2,7 +2,7 @@ import { readFileSync } from "fs";
 
 import { countPositionsVisitedByTail } from "./part_two";
 
-describe("part one", () => {
+describe("part two", () => {
   test("example input", () => {
     const result = countPositionsVisitedByTail(readFileSync("./09/example_input_part_two.txt", "utf-8"));
 
