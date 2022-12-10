@@ -16,8 +16,6 @@ export const produceImage = (input: string) => {
     }
   });
 
-  console.log(crt);
-
   return crt;
 };
 
